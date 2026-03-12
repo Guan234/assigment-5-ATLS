@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+/* form styling */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f5f5f5;
+	color: #222;
+}
+
+#wrapper {
+	width: 60%;
+	margin-left: 4%;
+	margin-top: 2em;
+}
+
+div#formcol1 {
+	float: left;
+	width: 100%;
+}
+
+h1 {
+	margin-bottom: 0.3em;
+}
+
+.instructions {
+	margin-bottom: 1.2em;
+	font-size: 0.95em;
+}
+
+fieldset {
+	border: 1px solid #999;
+	padding: 1em;
+	margin-bottom: 1.5em;
+	background: #ffffff;
+}
+
+legend {
+	font-weight: bold;
+	padding: 0 0.4em;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.3em;
+	display: inline-block;
+	text-align: right;
+}
+
+div#formcol1 ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#formcol1 li {
+	list-style: none;
+	margin-bottom: .6em;
+}
+
+div#formcol1 input {
+	background-color: #F4F4F4;
+	padding: 0.2em;
+	border: 1px solid #999;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+}
+
+/* div for radio buttons and check boxes */
+
+#multchoice {
+	clear: left;
+	margin-left: 1%;
+}
+
+#multchoice p {
+	margin-top: 0.5em;
+}
+
+#multchoice span {
+	margin-right: 1em;
+	white-space: nowrap;
+}
+
+#multchoice input,
+#multchoice label {
+	display: inline;
+	width: auto;
+	margin-right: 0.3em;
+	text-align: left;
+}
+
+.submit-button {
+	margin: 1.5em 0;
+	float: right;
+	width: auto;
+}
+
+.submit-button input {
+	padding: 0.4em 0.8em;
+	border: 1px solid #666;
+	background: #eaeaea;
+	cursor: pointer;
+}
+
+/* focus and active highlighting */
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+}
+
+/* end of form css */
